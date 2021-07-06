@@ -7,9 +7,7 @@ print("Bot is running")
 bot = telebot.TeleBot('')
 
 admin="0"
-ausername="0"import telebot
-from telebot import types
-from datetime import datetime, date, time
+ausername="0"
 
 print("Бот запущен")
 
