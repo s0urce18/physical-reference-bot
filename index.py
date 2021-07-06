@@ -19,7 +19,7 @@ def admin_message(message):
 def admin_password(message):
     global admin
     global ausername
-    if message.text == "01gleb09":
+    if message.text == "":
         admin=message.from_user.id
         print(admin)
         if bool(message.from_user.username)==True:
