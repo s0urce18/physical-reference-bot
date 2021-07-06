@@ -9,12 +9,6 @@ bot = telebot.TeleBot('')
 admin="0"
 ausername="0"
 
-print("Бот запущен")
-
-bot = telebot.TeleBot('')
-
-admin="602582450"
-ausername="@glebboyarkin"
 #admin---------------------------------------------------------------------
 @bot.message_handler(commands=['admin'])
 def admin_message(message):
